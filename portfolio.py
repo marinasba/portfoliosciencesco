@@ -45,7 +45,7 @@ img_page23 = Image.open("images/page23.png")
 #Header
 with st.container():
     st.subheader("Bonjour, je m'appelle Marina :wave:")
-    st.title("Une candidate au master Création Numérique")
+    st.title("Une candidate au master Sciences Cognitives")
     st.write("Je suis en train d'apprendre le Python en créant ce portfolio")
     st.write("Découvrez qui je suis ainsi que mes travaux ici !")
 
@@ -196,17 +196,6 @@ with st.container():
         st.markdown("[pour voir le code sur mon Github](https://github.com/marinanowicki/morpion/blob/9e8df71f9d7dda34512350185de2692dd60afb64/main)")
 
 
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_criminou)
-    with text_column:
-        st.subheader("Le logo de ma boutique de produits digitaux")
-        st.write(
-            """
-            Criminou c'est mon chat...La boutique n'existe pas encore mais c'est en cours de création.
-            """
-        )
 
 #loisirs 
 with st.container():
@@ -321,16 +310,6 @@ with st.container():
         )
 
 
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_portraits)
-    with text_column:
-        st.write(
-            """
-            Et la photo de portraits aussi. Ici ce sont des autoportraits.
-            """
-        )
 
 
 #formulaire de contact
