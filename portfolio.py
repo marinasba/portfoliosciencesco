@@ -41,7 +41,7 @@ img_page1 = Image.open("images/page1.png")
 img_page19 = Image.open("images/page19.png")
 img_page21 = Image.open("images/page21.png")
 img_page23 = Image.open("images/page23.png")
-img_mamabulle = Image.open("images/mambulle.png")
+img_mambulle = Image.open("images/mambulle.png")
 
 #Header
 with st.container():
@@ -138,13 +138,12 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_mamabulle)
+        st.image(img_mambulle)
     with text_column:
         st.write(
             """
             J'ai réalisé l'identité visuelle de l'entreprise "Mam'a Bulle". C'est une entreprise de réflexologie plantaire et d'accompagnement en périnatalité. 
             J'ai réalisé un mockup de site internet, logo et charte graphique.
-
             """
         )
         st.markdown("[Voir la charte entière](https://www.fichier-pdf.fr/2024/05/29/presentation-mama-bulle/)")
