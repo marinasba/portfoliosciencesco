@@ -41,7 +41,7 @@ img_page1 = Image.open("images/page1.png")
 img_page19 = Image.open("images/page19.png")
 img_page21 = Image.open("images/page21.png")
 img_page23 = Image.open("images/page23.png")
-img_mamabulle = Image.open("images/mamabulle.png")
+img_mamabulle = Image.open("images/mambulle.png")
 
 #Header
 with st.container():
