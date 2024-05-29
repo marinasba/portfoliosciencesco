@@ -135,19 +135,6 @@ with st.container():
         )
         st.markdown("[Voir sur Figma](https://www.figma.com/file/f02LfNdSTNNk6LIL2KQh8O/MOODLE?type=design&node-id=3101%3A2&mode=design&t=3tFdqvqPXnG2EO0W-1)")
 
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_mambulle)
-    with text_column:
-        st.write(
-            """
-            J'ai réalisé l'identité visuelle de l'entreprise "Mam'a Bulle". C'est une entreprise de réflexologie plantaire et d'accompagnement en périnatalité. 
-            J'ai réalisé un mockup de site internet, logo et charte graphique.
-            """
-        )
-        st.markdown("[Voir la charte entière](https://www.fichier-pdf.fr/2024/05/29/presentation-mama-bulle/)")
-
 
 with st.container():
     image_column, text_column = st.columns((1,2))
