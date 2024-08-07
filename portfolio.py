@@ -213,75 +213,6 @@ with st.container():
                  )
         st.markdown("[Voir le timelapse d'un dessin](https://youtu.be/g4fSyc2o_AQ)")
 
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_bandedessinee)
-    with text_column:
-        st.subheader("Bande dessinée")
-        st.write(
-            """
-            J'ai réalisé une bande dessinée de 22 pages pour offrir. Chaque planche représente un souvenir vécu avec la personne. J'ai créé les cases et les bulles avec Canva. J'ai ensuite exporté le document et ai dessiné sur Procreate.
-            """
-        )
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_page1)
-    with text_column:
-        st.write(
-            """
-            La première de couverture.
-            """
-        )
-
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_page19)
-    with text_column:
-        st.write(
-            """
-            La page 19.
-            """
-        )
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_page21)
-    with text_column:
-        st.write(
-            """
-            La page 21.
-            """
-        )
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_page23)
-    with text_column:
-        st.write(
-            """
-            La page 23.
-            """
-        )
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_site)
-    with text_column:
-        st.subheader("Mon site de cuisine")
-        st.write(
-            """
-            Voici mon site internet "1repas1euro". Il vient tout juste d'être refait donc il n'y a pas encore énormément de contenu dessus car je dois tout remettre à la main !
-            """
-        )
-        st.markdown("[Voir le site](https://1repas1euro.fr)")
 
 with st.container():
     image_column, text_column = st.columns((1,2))
@@ -306,7 +237,7 @@ with st.container():
             """
             J'aimerais pouvoir photographier mes recettes de façon professionnelle, j'essaie donc d'apprendre dans ce domaine.
             """
-        )
+    )
 
 
 
